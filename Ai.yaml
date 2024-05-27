@@ -1,21 +1,6 @@
 payload:
   # from https://github.com/ACL4SSR/ACL4SSR/issues/67
-  - DOMAIN-KEYWORD,bing
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,heypi.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,pi.ai
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN,gemini.google.com
-  - DOMAIN,o33249.ingest.sentry.io
-  - DOMAIN,devv.ai
+  # Bing https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+  # Claude https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list
+  # OpenAI https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+  - DOMAIN-SUFFIX,devv.ai
