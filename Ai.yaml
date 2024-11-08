@@ -4,3 +4,4 @@ payload:
   # Claude https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list
   # OpenAI https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
   - DOMAIN-SUFFIX,devv.ai
+  - DOMAIN-SUFFIX,devv-api.ai
